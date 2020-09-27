@@ -15,6 +15,12 @@ Date: 2020-03-11 17:36:38
 
 SET FOREIGN_KEY_CHECKS = 0;
 
+DROP DATABASE IF EXISTS `lego_oms`;
+
+CREATE DATABASE `lego_oms`;
+
+USE `lego_oms`;
+
 -- ----------------------------
 -- Table structure for mq_message
 -- ----------------------------
